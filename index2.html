@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juli’s Portfolio Page</title>
+    <style>
+        body {
+            font-family: Arial Black, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #d4687c;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #d4687c;
+        }
+
+        h3 {
+            font-size: 1em;
+            color: #d4687c;
+        }
+
+        nav {
+            background-color: #f5a9b7;
+            color: #f29dad;
+            padding: 10px;
+        }
+
+            nav a {
+                color: #f29dad;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        a:link {
+             color: #d9415d;
+           }
+
+        a:visited {
+             color: #91263a;
+        }
+
+        a:hover {
+            color: hotpink;
+        }
+
+        a:active {
+            color: #b52842;
+        }
+
+        .about-me {
+            background-color: #f5a9b7;
+            border-radius: 3px;
+            margin-bottom: 12px;
+        }
+
+        #goals {
+            margin-top: 10px;
+            padding: 7px;
+            border: 5px solid #f29dad;
+            border-radius: 3px;
+            margin-bottom: 12px;
+        }
+
+         #contact {
+            padding: 7px;
+            background-color: #f5a9b7;
+            border-radius: 3px;
+        }
+
+        .form-group {
+
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="about-me" id="about-me">
+        <h2>About Me</h2>
+        <p>Hello! My name is Juli Buckle, I'm Brazilian and I have been studying BSC in Software Engineering at ASU online. I currently work as Application Engineer / Software Developer at a company in Carpinteria, CA and I also have a second job as a Fitness Coach.</p>
+    </section>
+    <section id="goals">
+        <h2>My Goals</h2>
+        <h3>Short-term Goals</h3>
+        <p>My goals are to improve and get my skills in front-end developing up to date by considerably increasing my knowledge in JavaScript, being part of projects that will be openly displayed in my portfolio, and by building web applications with great functionality and purpose. </p>
+        <h3>Long-term Goals</h3>
+        <p>I am trying to get better at my skills so I can find a job I enjoy more doing and which will pay me better than where I work now, as they use a lot of legacy coding techniques which is harder to work with and less valuable in today’s world! But isn’t it what we all want? </p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Juli</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name:  </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:  </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">The Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send to Juli</button>
+        </form>
+    </section>
+
+
+    <p>
+        Check out my GitHub account profile at
+        <a href="https://github.com/JuliBuckle" target="_blank">JuliBuckle’s GitHub Profile</a>.
+    </p>
+
+    <img src="https://i.ibb.co/n8D42vh/coast-6310250-1920.jpg" alt="coast-6310250-1920" border="0">
+
+</body>
+</html>
