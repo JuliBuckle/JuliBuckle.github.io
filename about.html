@@ -1,0 +1,176 @@
+﻿<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Lora, serif;
+            line-height: 1.6;
+            color: #d4687c;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #d4687c;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            font-family: Dancing Script, cursive;
+            font size: 20px
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-family: Dancing Script, cursive;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            font-family: Dancing Script, cursive;
+            /*color: #d4687c;*/
+        }
+
+        p {
+            font-size: 1.0rem;
+            padding: 20px;
+        }
+
+        /* Navigation Links */
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 2.0rem;
+        }
+
+            nav a:hover {
+                color: #91263a;
+            }
+
+        /* Main Section Styling */
+        main {
+            padding: 20px;
+        }
+
+        .extra {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+            .extra img {
+                width: 100%;
+                max-width: 800px;
+                border-radius: 10px;
+                margin-top: 20px;
+
+            }
+
+        /* Responsive Layout for larger screens */
+        @media(min-width: 768px) {
+            .intro {
+                flex-direction: row;
+                text-align: left;
+            }
+
+                .intro img {
+                    margin-left: 20px;
+                }
+        }
+
+        /* Link Styling */
+        .links {
+            margin-top: 2.5rem;
+            text-align: center;
+        }
+
+            .links a {
+                display: inline-block;
+                margin: 10px;
+                padding: 10px 30px;
+                background-color: #ffa500;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 1px;
+            }
+
+                .links a:hover {
+                    background-color: #333;
+                }
+ 
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a> <!-- Link back to the home page -->
+            <a href="contact.html">Contact JuliB</a>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <h1>About FitMe&copy</h1>
+        <p>This is your new best friend: the FitMe Wellness App! This app will allow you access to a program specially designed tailored for you!!! You are about to embark in the best self imporvement journey of your life!!!</p>
+
+        <!-- Extra content -->
+       
+        <section class="extra">
+            <div>
+                <h2>My Mission</h2>
+                <p>I aim to provide exceptional service and value to my all clients... I will be beside you in every step of your transformationa and re-education bringing a whole new meaning to your life! I guarantee that following my program you will have the support you need to see life in a totally different perspective and your everyday will be filled with excitment and hope for a better and brighther future for you and your loved ones!</p>
+
+                <h2>Your New Community</h2>
+                <p>You will meet a community of empowered females and males that are going to be a key factor to your success... In this platform you will be able to share with others that are on the same mindset as you, finding support and inspiration in their daily achivments and also be able to inspire others with your success!!! Here you belong, you will never more feel alone or left out in this journey!! </p>
+                <div class="links">
+                    <a href="#explore">Explore Wellness Community </a>
+
+                </div>
+                <img src="https://i.ibb.co/n8D42vh/coast-6310250-1920.jpg" alt="coast-6310250-1920">
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 JuliB Web App Dev. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>

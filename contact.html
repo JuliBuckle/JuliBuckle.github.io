@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact JuliB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+<style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Lora', serif;
+            line-height: 1.6;
+            color: #d4687c;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #d4687c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-family: Dancing Script, cursive;
+            font size: 50px
+        }
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            font-family: Dancing Script, cursive;
+            /*color: #d4687c;*/
+        }
+
+        h3 {
+            font-size: 1rem;
+            /*color: #d4687c;*/
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        /* Navigation Links */
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 2.0rem;
+        }
+
+            nav a:hover {
+                color: #91263a;
+            }
+
+        /* Main Section Styling */
+        main {
+            padding: 20px;
+        }
+
+
+        #contact {
+            padding: 20px;
+            background-color: #f5a9b7;
+            border-radius: 10px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+        }
+
+        label {
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+         /* Footer Styling */
+        footer {
+            background-color: #89CFF0;
+            color: #fff;
+            text-align: center;
+            padding: 60px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+          
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #ffa500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            border-color: #fff;
+            font-weight: bold;
+            font-size: 1.0rem;
+        }
+
+</style>
+
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About FitMe&copy</a>
+    </nav>
+    <h1>Ask JuliB ANYTHING!</h1>
+    <p>This is your space to make any questions that you might need answers!</p>
+    </header>
+
+<section id="contact">
+        <h2>Contact JuliB</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:  </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">The Message to JuliB :</label>
+                <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit">Send to JuliB</button>
+        </form>
+    </section>
+
+     <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 JuliB Web App Dev. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -3,26 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juli’s Portfolio Page</title>
+    <title>Juli's Web App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Lora', serif;
+            line-height: 1.6;
+            color: #d4687c;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #d4687c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-family: Dancing Script, cursive;
+            font size: 50px
+        }
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            font-family: Dancing Script, cursive;
+            /*color: #d4687c;*/
+        }
+
+        h3 {
+            font-size: 1rem;
+            /*color: #d4687c;*/
+        }
+
+        p {
+            font-size: 1.0rem;
+        }
+
+        /* Navigation Links */
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 2.0rem;
+        }
+
+            nav a:hover {
+                color: #91263a;
+            }
+
+        /* Main Section Styling */
+        main {
+            padding: 20px;
+        }
+
+        .intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+            .intro img {
+                width: 100%;
+                max-width: 300px;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+
+        /* Responsive Layout for larger screens */
+        @media(min-width: 768px) {
+            .intro {
+                flex-direction: row;
+                text-align: left;
+            }
+
+                .intro img {
+                    margin-left: 20px;
+                }
+        }
+
+        /* Link Styling */
+        .links {
+            margin-top: 2.5rem;
+            text-align: center;
+        }
+
+            .links a {
+                display: inline-block;
+                margin: 60px;
+                padding: 10px 30px;
+                background-color: #ffa500;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+
+                .links a:hover {
+                    background-color: #333;
+                }
+
+        /* Footer Styling */
+        footer {
+            background-color: #89CFF0;
+            color: #fff;
+            text-align: center;
+            padding: 60px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
 </head>
 <body>
 
-    <section class="about-me">
-        <h2>About Me</h2>
-        <p>Hello! I'm Brazilian, and I have been studying Software Engineering at ASU online. I currently work as an Application Engineer / Software Developer at a company in Carpinteria, CA and I also have a second job as a Fitness Coach. I am trying to get better at my skills so I can find a job I enjoy more doing and which will pay me better than where I work, as they use a lot of legacy coding which is harder to work with and less valuable in today’s world! But isn’t it what we all want? </p>
-    </section>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to FitMe&copy by JuliB ! </h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="about.html">About FitMe&copy</a>
+            <a href="contact.html">Contact JuliB</a>
+        </nav>
+    </header>
 
-    <section id="goals">
-        <h2>My Goals</h2>
-        <p>My goals are to improve and get my skills in front-end developing up to date by considerably increasing my knowledge in JavaScript, being part of projects that will be openly displayed in my portfolio, and by building web applications with great functionality and purpose. </p>
-    </section>
+    <!-- Main Content Section -->
+    <main>
+        <section id="home" class="intro">
+            <div>
+                <h2>About Me</h2>
+                <p>Hello! I am Juli Buckle, your fave Fitness Coach and this is your new best friend: the FitMe Wellness App! I can't wait to help you to transform your life by creating amazing healthy habits and following my program specially designed and tailored for you!!! You are about to embark in the best self imporvement journey of your life!!!</p>
+            </div>
+            <img src="https://i.ibb.co/n8D42vh/coast-6310250-1920.jpg" alt="coast-6310250-1920">
+        </section>
 
-    <p>
-        Check out my GitHub account profile at
-        <a href="https://github.com/JuliBuckle">JuliBuckle’s GitHub Profile</a>.
-    </p>
+        <!-- Links Section -->
+        <div class="links">
+            <a href="#explore">Explore Your Fitness Journey & Program </a>
+            <a href="#get-started">Explore Diet Education & Regime</a>
+        </div>
+    </main>
 
-    <img src="https://i.ibb.co/n8D42vh/coast-6310250-1920.jpg" alt="coast-6310250-1920" border="0">
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 JuliB Web App Dev. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
